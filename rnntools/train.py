@@ -9,9 +9,9 @@ import optax
 import equinox as eqx
 from equinox.nn.composed import _identity, Sequential
 
-from findir.models import Recurrence, MyLinear, MyMLP, Dynamics_Decoder
-from findir.generate_data import get_data
-from findir.dataloader import dataloader
+from rnntools.models import Recurrence, MyLinear, MyMLP, Dynamics_Decoder
+from rnntools.generate_data import get_data
+from rnntools.dataloader import dataloader
 
 jax.config.update('jax_platform_name', 'cpu')
 
