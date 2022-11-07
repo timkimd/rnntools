@@ -1,4 +1,4 @@
-"""findir - JAX implementation of Flow-field Inference from Neural Data with Isometrically Regularized-NDEs."""
+"""rnntools - JAX implementation of RNNTools.jl."""
 
 __version__ = "0.0.1"
 __author__ = "Tim Kim <tdkim@princeton.edu>"
